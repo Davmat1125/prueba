@@ -1,0 +1,24 @@
+create database prueba;
+create table clientes(
+idCliente int PRIMARY KEY,
+numeroCedula varchar(10),
+nombre varchar(20)
+);
+create table productos(
+idProductos int primary key,
+tipoProducto varchar(20),
+tipoTransporte varchar(20)
+);
+ create table envios(
+ idEnvio int PRIMARY KEY,
+ tipoProducto varchar(20),
+ cantidadProductos int,
+ fechaRegistro date,
+ fechaEntrega date,
+ bodegaEntrega  varchar(20),
+ precioEntrega double,
+ placa varchar(6),
+ numeroGuia varchar(20),
+FOREIGN KEY (idClientes) REFERENCES clientes (idClientes),
+ foreign key (idProducto) references productos (idproductos)
+ );

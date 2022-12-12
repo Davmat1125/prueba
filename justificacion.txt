@@ -1,0 +1,9 @@
+Tecnologías empleadas:
+-Java: Java es un lenguaje con un uso muy amplio a la hora de realizar software, por esta misma razón los IDE son amigables entre ellos a pesar de ser un poco distintos en su uso. Por su gran uso la comunidad es muy amplia esto ayuda a la resolución de dudas a la hora de ejecutar un proyecto. los despliegues en las máquinas y servidores son muy sencillas, así como su mantenimiento y mejora. Por esto java nos facilita el uso e interpretación de cada una de sus herramientas.
+-MySQL: MySQL es un es de código abierto y fácil de usar y es de gran rendimiento en las herramientas gráficas, también es compatible con los principales SO como Linux, MacOS, Windows entre otros y proporciona almacenamiento de grandes volúmenes de datos, así mismo su conexión con Java es de forma sencilla lo que los hace un gran complemento.
+
+
+
+
+Patrón de diseño:
+En esta ocasión utilice la arquitectura Modelo Vista Controlador (MVC) ya que me parece un modelo sencillo para el manejo y visualización de datos
